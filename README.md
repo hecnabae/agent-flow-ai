@@ -28,3 +28,9 @@ mvn -pl apps/api spring-boot:run
 ```
 
 La API expone endpoints REST bajo `/api`, comenzando por la gestión de tareas y subtareas (`POST /api/tasks`, `GET /api/tasks`, `POST /api/tasks/{id}/subtasks`, `PATCH /api/subtasks/{id}`, etc.).
+
+
+## Plantillas de prompts
+
+Se incluyen plantillas reutilizables en `plantillas/` para planificación, desglose de subtareas, priorización de foco, revisión de progreso y salud arquitectónica.
+
