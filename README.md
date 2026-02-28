@@ -28,3 +28,7 @@ mvn -pl apps/api spring-boot:run
 ```
 
 La API expone endpoints REST bajo `/api`, comenzando por la gestión de tareas y subtareas (`POST /api/tasks`, `GET /api/tasks`, `POST /api/tasks/{id}/subtasks`, `PATCH /api/subtasks/{id}`, etc.).
+
+## Documentación de prácticas de equipo
+
+* [Tema 10: Estandariza en equipo — checklist y definición de “Done”](./tema10-standariza-en-equipo-checklist-dod.md)
